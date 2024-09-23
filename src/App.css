@@ -1,0 +1,42 @@
+.title{
+  @apply text-[2rem] sm:px-[40px] transition-all duration-700 text-center lg:text-[3.125rem] leading-[1.1] font-semibold tracking-wide;
+}
+
+.subtitle{
+  @apply text-[1rem] font-semibold lg:text-[1.735rem] transition-all duration-700 z-10;
+}
+
+.red_btn{
+    @apply bg-[#e50914] lg:py-[6px] py-2 lg:px-[26px] px-[5px] flex items-center rounded-md lg:text-[1.625rem] text-[15px] font-semibold transition-all duration-700 z-10 hover:opacity-60;
+}
+
+.input_feild{
+  @apply sm:px-2 flex relative items-center rounded-sm bg-neutral-900/70 border-solid border-gray-400/50 border-[1px] mx-2;
+}
+
+.subtitle_2{
+  @apply  text-[12px] lg:text-[20px] font-semibold text-center sm:px-[50px] transition-all duration-700 z-10;
+}
+
+
+
+.input-field {
+  @apply lg:p-4 sm:p-2 text-[15px] rounded-md focus:outline-none lg:pr-[180px] sm:pr-[40px] mx-2 bg-neutral-900/70 border-[1px] border-gray-400/50 px-2;
+   /* Extra padding to accommodate the placeholder animation */
+}
+
+/* Placeholder animation */
+.input-field::placeholder {
+  transition: all 0.3s ease;
+  color: #999; /* Light grey for the placeholder */
+}
+
+.input-field:focus::placeholder {
+  @apply text-xs text-blue-500; /* Change color and size on focus */
+  transform: translateY(-20px) translateX(-0.5rem); /* Move to top-left */
+  /* Adjust the transform values according to your needs */
+}
+
+.input-field:focus {
+  padding-top: 1rem; /* Adjust padding to make room for the placeholder move */
+}
