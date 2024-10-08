@@ -9,10 +9,10 @@
 .red_btn{
     @apply bg-[#e50914] lg:py-[6px] py-2 lg:px-[26px] px-[5px] flex items-center rounded-md lg:text-[1.625rem] text-[15px] font-semibold transition-all duration-700 z-10 hover:opacity-60;
 }
-
+/* 
 .input_feild{
   @apply sm:px-2 flex relative items-center rounded-sm bg-neutral-900/70 border-solid border-gray-400/50 border-[1px] mx-2;
-}
+} */
 
 .subtitle_2{
   @apply  text-[12px] lg:text-[20px] font-semibold text-center sm:px-[50px] transition-all duration-700 z-10;
@@ -32,7 +32,7 @@
 }
 
 .input-field:focus::placeholder {
-  @apply text-xs text-blue-500; /* Change color and size on focus */
+  @apply p-2 text-xs text-blue-500; /* Change color and size on focus */
   transform: translateY(-20px) translateX(-0.5rem); /* Move to top-left */
   /* Adjust the transform values according to your needs */
 }
